@@ -107,8 +107,7 @@ while playAgain == 'y':
                 df1.drop(['0'], axis=1)
         else:
             pass
-    
-    
+       
     k1 = input("Are any impossible positions known?: ")
     if k1 == 'y':
         imp = []
