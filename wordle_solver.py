@@ -9,7 +9,8 @@ def intro():
     |/\| \__/ |  \ |__/ |___ |___    .__/ \__/ |___  \/  |___ |  \ 
                                                                                                          
                  
-    Directions:  Run after first attempt on Wordle or any Wordle clone.  Follow Directions.
+    Directions:  Run after first attempt on Wordle or any Wordle clone.  
+    Follow on-screen directions.
     
           ''')
 
