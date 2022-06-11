@@ -9,10 +9,10 @@ def intro():
     |/\| \__/ |  \ |__/ |___ |___    .__/ \__/ |___  \/  |___ |  \ 
                                                                                                          
                  
-    Directions:  Run after first attempt on Wordle or any Wordle clone.  
-    Follow on-screen directions.
+    Directions:  Run after first attempt on Wordle or any Wordle clone.  Follow on-screen directions.
     
           ''')
+
 
 playAgain = 'y'
 
@@ -65,7 +65,7 @@ while playAgain == 'y':
     
     k1 = ''
     while k1 not in yes_no:
-        k1 = input("Are any positions known?: ")
+        k1 = input("Are any positions known? (y/n): ")
 
     else:
         if k1 == 'y':
@@ -111,7 +111,7 @@ while playAgain == 'y':
     while k1 == 'y':
         k1 = ''
         while k1 not in yes_no:
-            k1 = input("Are any other positions known?: ")
+            k1 = input("Are any other positions known? (y/n): ")
         else:
             if k1 == 'y':
                 known = []
@@ -155,7 +155,7 @@ while playAgain == 'y':
     
     k1 = ''
     while k1 not in yes_no:
-        k1 = input("Are any impossible positions known?: ")
+        k1 = input("Are any impossible positions known? (y/n): ")
     else:    
         if k1 == 'y':
             imp = []
@@ -200,7 +200,7 @@ while playAgain == 'y':
     while k1 == 'y':
         k1 = ''
         while k1 not in yes_no:
-            k1 = input("Are any other impossible positions known?: ")
+            k1 = input("Are any other impossible positions known? (y/n): ")
         else:
             if k1 == 'y':
                 imp = []
@@ -286,7 +286,7 @@ while playAgain == 'y':
     
             k1 = ''
             while k1 not in yes_no:        
-                k1 = input("Are any NEW positions known?: ")
+                k1 = input("Are any NEW positions known? (y/n): ")
             else:    
                 if k1 == 'y':
                     known = []
@@ -331,7 +331,7 @@ while playAgain == 'y':
                 k1 = ''
                 known = []
                 while k1 not in yes_no:
-                    k1 = input("Are any other NEW positions known?: ")
+                    k1 = input("Are any other NEW positions known? (y/n): ")
                 else:
                     if k1 == 'y':
                         space = ''
@@ -374,7 +374,7 @@ while playAgain == 'y':
         
             k1 = ''
             while k1 not in yes_no:   
-                k1 = input("Are any NEW impossible positions known?: ")
+                k1 = input("Are any NEW impossible positions known? (y/n): ")
             
             else:
                 if k1 == 'y':
@@ -421,7 +421,7 @@ while playAgain == 'y':
             while k1 == 'y':
                 k1 = ''
                 while k1 not in yes_no:   
-                    k1 = input("Are any other NEW impossible positions known?: ")
+                    k1 = input("Are any other NEW impossible positions known? (y/n): ")
                 else:
                     if k1 == 'y':
                         imp = []
@@ -474,5 +474,4 @@ else:
     print()
     print("Maybe some other time then...  Goodbye.")
     raise SystemExit()
-    
     
