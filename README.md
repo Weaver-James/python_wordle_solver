@@ -10,5 +10,6 @@ This is a simple text-based Wordle (or Wordle clone) solver written in python.  
 
 **Directions:**  Run this program any time after your first guess in Wordle.  Follow on-screen directions.
 
-**Screenshot:** The below screenshot displays solver questions and answers after one turn.<br>
+**Screenshot:** The below screenshot displays solver questions and answers after one your first word guess in the game.<br><br>
+<img src="https://github.com/Weaver-James/python_wordle_solver/blob/main/wordle.png">
 <img src="https://github.com/Weaver-James/python_wordle_solver/blob/main/wordle.png">
